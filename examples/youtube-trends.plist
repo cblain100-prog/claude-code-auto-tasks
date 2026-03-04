@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Exemple de fichier launchd pour macOS.
+  Ce fichier est genere automatiquement par le plugin scheduler.
+  Tu n'as normalement pas besoin de le creer a la main.
+
+  Chemin d'installation : ~/Library/LaunchAgents/
+  Pour charger : launchctl load ~/Library/LaunchAgents/com.claude.schedule.youtube-trends.plist
+  Pour dechargeer : launchctl unload ~/Library/LaunchAgents/com.claude.schedule.youtube-trends.plist
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.claude.schedule.youtube-trends</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>-c</string>
+        <string>cd "/Users/TONUSER/Desktop/MON-PROJET" &amp;&amp; claude -p "Scan trending AI/Claude topics from Anthropic, Reddit, YouTube and X/Twitter. Generate scored video ideas and save the report to Notion." --dangerously-skip-permissions</string>
+    </array>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin:/Users/TONUSER/.local/bin</string>
+    </dict>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>9</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/Users/TONUSER/.claude/logs/youtube-trends.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/TONUSER/.claude/logs/youtube-trends.error.log</string>
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>

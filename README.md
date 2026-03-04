@@ -75,8 +75,18 @@ C'est **la etape la plus importante**. Si ton ordinateur se met en veille (dort)
 ### Sur Mac (macOS)
 
 1. Ouvre **Reglages Systeme** (l'icone en forme de roue dentee)
-2. Va dans **Energie** (ou **Batterie** sur un MacBook)
-3. Active **"Empecher la mise en veille automatique quand l'ecran est eteint"**
+2. Cherche **"Energie"** dans la barre de recherche, ou va dans **Batterie** (sur un MacBook)
+3. Clique sur **Options...** en bas a droite
+4. Active **"Empecher la suspension d'activite automatique sur adaptateur secteur lorsque l'ecran est eteint"**
+5. Clique sur **Termine**
+
+Voici a quoi ca ressemble :
+
+![Reglages Batterie macOS — Vue generale](screenshots/mac-battery-overview.png)
+
+Puis dans les options :
+
+![Reglages Batterie macOS — Option anti-veille](screenshots/mac-battery-settings.png)
 
 L'ecran s'eteint normalement pour economiser de l'energie, mais l'ordinateur reste actif en arriere-plan. Les taches planifiees tournent sans probleme.
 

@@ -273,6 +273,24 @@ Oui, tout est dans les logs : `/scheduler:schedule-logs` ou dans le dossier `~/.
 
 ---
 
+## Tu veux aller plus loin avec Claude ?
+
+Ce guide est un apercu de ce que Claude Code peut faire en automatisation. Mais ce n'est que la surface.
+
+Si tu veux :
+- Decouvrir d'autres cas d'usage concrets de Claude (creation de contenu, automatisation business, productivite)
+- Poser tes questions et obtenir des reponses directes
+- Rejoindre une communaute de francophones qui utilisent Claude au quotidien
+
+**Retrouve-moi ici :**
+
+- **LinkedIn** : [Colin Blain](https://www.linkedin.com/in/colin-blain/) — je partage des tips Claude et IA chaque semaine
+- **Skool** : Communaute gratuite pour les utilisateurs Claude francophones (lien sur mon profil LinkedIn)
+
+Tu as une question sur Claude, Claude Code, les MCP, les skills, l'automatisation ? Envoie-moi un message sur LinkedIn. Je reponds a tout le monde.
+
+---
+
 ## Credits
 
 - Plugin : [claude-code-scheduler](https://github.com/jshchnz/claude-code-scheduler) par jshchnz
